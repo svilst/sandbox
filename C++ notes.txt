@@ -1,4 +1,5 @@
-C++ Core
+--------
+C++ Core (STL's videos?)
 --------
 
 Part 1
