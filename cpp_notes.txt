@@ -1,0 +1,45 @@
+--------
+C++ Core (STL's videos?)
+--------
+
+Part 1
+
+order
+===========
+name lookup
+template arg deduction
+overload resolution
+access control
+(virtual function)
+
+argument dependant lookup (adl)
+ordinary adl
+pure adl
+-> for range loop (search for begin and end functions only the range namespace)
+
+namespace alias
+-> namespace w = lib::widgets;
+
+using directive
+-> using namespace std;
+
+using declarations
+-> using std::vector;
+-> brings a type into another namespace
+-> but this does not serve ADL! 
+-> the function and the type must be truely declared in the same namespace!
+-> (TEST) if ADL works if both (type and function) are brought into another namespace!
+
+Part 2
+
+Template Argument Deduction
+
+TODO: SCARY iterators
+
+argument const specifier is kept when the parameter is a reference, otherwise it is dropped.
+
+TODO: auto uses same mechanism as template arg deduction
+
+through "::"
+function<> template
+
